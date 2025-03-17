@@ -91,34 +91,37 @@
             <h1 class="title is-1 publication-title">Humanoids in Hospitals: A Technical Study of Humanoid Surrogates
               for Dexterous Medical Interventions</h1>
             <div class="is-size-5 publication-authors">
-              <span class="author-block">
-                <a href="https://www.linkedin.com/in/soofiyan-atar-93227a131/">Soofiyan Atar</a><sup>1</sup>,</span>
-              <span class="author-block">
-                <a href="https://www.linkedin.com/in/xiao-liang-826414153/">Xiao Liang</a><sup>1*</sup>,</span>
-              <span class="author-block">
-                <a href="https://www.linkedin.com/in/calvin-joyce/">Calvin Joyce</a><sup>1*</sup>,
+              <span class="author-block" style="margin-right: 30px;">
+                <a href="https://www.linkedin.com/in/soofiyan-atar-93227a131/">Soofiyan Atar</a>,
               </span>
-              <span class="author-block">
-                <a href="https://www.linkedin.com/in/florian-richter-373299a0/">Florian Richter</a><sup>1</sup>,
+              <span class="author-block" style="margin-right: 30px;">
+                <a href="https://www.linkedin.com/in/xiao-liang-826414153/">Xiao Liang</a>,</span>
+              <span class="author-block" style="margin-right: 30px;">
+                <a href="https://www.linkedin.com/in/calvin-joyce/">Calvin Joyce</a>,
               </span>
-              <span class="author-block">
-                <a href="">Ricardo Wood</a><sup>2</sup>,
+              <span class="author-block" style="margin-right: 30px;">
+                <a href="https://www.linkedin.com/in/florian-richter-373299a0/">Florian Richter</a>,
               </span>
-              <span class="author-block">
-                <a href="https://profiles.ucsd.edu/charles.goldberg">Charles Goldberg</a><sup>2</sup>,
+              <span class="author-block" style="margin-right: 30px;">
+                <a href="">Ricardo Wood</a>,
               </span>
-              <span class="author-block">
-                <a href="https://providers.ucsd.edu/details/12018/anesthesiology">Preetham Suresh</a><sup>2</sup>,
+              <span class="author-block" style="margin-right: 30px;">
+                <a href="https://profiles.ucsd.edu/charles.goldberg">Charles Goldberg</a>,
               </span>
-              <span class="author-block">
-                <a href="https://yip.eng.ucsd.edu">Michael Yip</a><sup>1</sup>
+              <span class="author-block" style="margin-right: 30px;">
+                <a href="https://providers.ucsd.edu/details/12018/anesthesiology">Preetham Suresh</a>,
+              </span>
+              <span class="author-block" style="margin-right: 30px;">
+                <a href="https://yip.eng.ucsd.edu">Michael Yip</a>
               </span>
             </div>
 
-            <div class="is-size-5 publication-authors">
-              <span class="author-block"><sup>1</sup>University of California San Diego,</span>
-              <span class="author-block"><sup>2</sup>UC San Diego Health</span>
-              <p>*Equal contribution</p>
+            <div class="is-size-5 publication-authors"
+              style="display: flex; justify-content: center; align-items: center;">
+              <img src="./static/images/ucsd_logo.png" alt="UCSD Logo"
+                style="width: 400px; height: auto; margin-right: 20px;">
+              <img src="./static/images/ucsd_som.png" alt="UCSD School of Medicine Logo"
+                style="width: 400px; height: auto;">
             </div>
 
             <div class="column has-text-centered">
@@ -176,19 +179,33 @@
     </div>
   </section>
 
-  <section class="hero teaser">
+  <!-- Cover Image Section -->
+  <section class="hero is-light is-small" style="position: relative;">
+    <div class="hero-body" style="padding: 0;">
+      <div class="container has-text-centered" style="max-width: 1200px; padding: 0;">
+        <img src="./static/images/cover.png" alt="Cover Image" style="width: 100%; height: auto;">
+        <div
+          style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; font-size: 3em; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); font-weight: bold; background-color: rgba(0, 0, 0, 0.5); padding: 10px 20px; border-radius: 10px;">
+          SURGIE: Surgical Humanoid
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- <section class="hero teaser">
     <div class="container is-max-desktop">
       <div class="hero-body">
         <video id="teaser" autoplay muted loop playsinline height="100%">
           <source src="./static/videos/teaser.mp4" type="video/mp4">
         </video>
         <h2 class="subtitle has-text-centered">
-          <span class="dnerf">Surgie</span> (surgical humanoid) which uses a teleoperation system to teleop surgical
+          <span class="dnerf">Surgie</span> (Surgical Humanoid) which uses a teleoperation system to teleop surgical
           procedures.
         </h2>
       </div>
     </div>
-  </section>
+  </section> -->
 
 
   <section class="hero is-light is-small">
@@ -375,7 +392,7 @@
   </section>
 
 
-  <footer class="footer">
+  <!-- <footer class="footer">
     <div class="container">
       <div class="content has-text-centered">
         <a class="icon-link" href="./static/videos/nerfies_paper.pdf">
@@ -404,7 +421,7 @@
         </div>
       </div>
     </div>
-  </footer>
+  </footer> -->
 
 </body>
 
